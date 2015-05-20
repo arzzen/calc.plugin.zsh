@@ -23,7 +23,7 @@ root@pc ~$ = 4/2
 
 ```bash
 .oh-my-zsh
-└──- plugins/
-     └-─- calc/
-          └──- calc.plugin.zsh
+└─── plugins/
+     └─── calc/
+          └─── calc.plugin.zsh
 ```

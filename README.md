@@ -12,6 +12,11 @@
 source $HOME/.oh-my-zsh/plugins/calc/calc.plugin.zsh
 ```
 
+or add to `.zshrc` via [antigen](http://antigen.sharats.me/)
+```sh
+antigen bundle arzzen/calc.plugin.zsh
+```
+
 ### Usage
 ```bash
 # addition

@@ -52,27 +52,27 @@ root@pc:~$ = "obase=16; 255"
 FF
 
 # convert from decimal to binary 
-root@pc ~$ = "obase=2; 12"
+root@pc:~$ = "obase=2; 12"
 1100
 
 # convert from binary to decimal 
-root@pc ~$ = "ibase=2; obase=A;1100"
+root@pc:~$ = "ibase=2; obase=A;1100"
 12
 
 # convert from hexadecimal to decimal 
-root@pc ~$ = "ibase=16; obase=A;FF"
+root@pc:~$ = "ibase=16; obase=A;FF"
 255
 
 # arctangent
-root@pc ~$ = "a(1)"
+root@pc:~$ = "a(1)"
 .78539816339744830961
 
 # PI value
-root@pc ~$ = "scale=10; 4*a(1)"
+root@pc:~$ = "scale=10; 4*a(1)"
 3.1415926532
 
 # more complex
-root@pc ~$ = "scale=2; 3.4+7/8-(5.94*(4*a(1)))"
+root@pc:~$ = "scale=2; 3.4+7/8-(5.94*(4*a(1)))"
 -14.26
 ```
 

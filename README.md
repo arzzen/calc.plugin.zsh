@@ -1,6 +1,11 @@
 # Simple zsh calculator
 > This is a calculator which runs on zsh.
 
+### Demo
+
+![calc demo](https://cloud.githubusercontent.com/assets/6382002/13583451/b1e44d30-e4b1-11e5-9efa-804f397c1181.gif)
+
+
 ### Installation
 
 1. Clone this repository to your favorite path (e.g. `~/.oh-my-zsh/plugins/calc/calc.plugin.zsh`)

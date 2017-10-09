@@ -1,8 +1,6 @@
 
-# bc - An arbitrary precision calculator language
-function = 
-{
-  echo "$@" | bc -l
+autoload -U zcalc
+function = {
+    zcalc -e "$*"
 }
-
-alias calc="="
+aliases[=]='noglob ='

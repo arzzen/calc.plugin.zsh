@@ -1,6 +1,7 @@
 
 autoload -U zcalc
-function = {
+function __calc_plugin {
     zcalc -e "$*"
 }
-aliases[calc]='noglob ='
+aliases[calc]='noglob __calc_plugin'
+aliases[=]='noglob __calc_plugin'

@@ -73,7 +73,7 @@ root@pc:~$ = PI
 3.14159
 
 # more complex
-root@pc:~$ = "scale=2; 3.4+7/8-(5.94*(4*atan(1)))"
+root@pc:~$ = "3.4+7/8-(5.94*(4*atan(1)))"
 -15.2611
 ```
 

@@ -17,9 +17,18 @@
 source $HOME/.oh-my-zsh/plugins/calc/calc.plugin.zsh
 ```
 
-or add to `.zshrc` via [antigen](http://antigen.sharats.me/)
+#### Via [antigen](http://antigen.sharats.me/)
+
+Add to `.zshrc` 
 ```sh
 antigen bundle arzzen/calc.plugin.zsh
+```
+
+#### Via [zplug](https://github.com/zplug/zplug)
+
+Add to `.zshrc`
+```sh
+zplug "arzzen/calc.plugin.zsh"
 ```
 
 ### Usage

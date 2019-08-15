@@ -86,6 +86,15 @@ root@pc:~$ = "3.4+7/8-(5.94*(4*atan(1)))"
 -15.2611
 ```
 
+### Alternative Implementations
+
+```
+# Put these in your .zshrc (No need to install a plugin)
+cc() python3 -c "from math import *; print($*);"
+alias cc='noglob cc'
+# You can use `cc` just like `=` from above. All functions from the math module of Python are available for use. 
+```
+
 ### Plugin location
 
 ```bash

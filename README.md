@@ -34,55 +34,55 @@ zplug "arzzen/calc.plugin.zsh"
 ### Usage
 ```bash
 # addition
-root@pc:~$ = 5+3
+root@pc:~$ cc 5+3
 8
 
 # multiplication
-root@pc:~$ = '4*2'
+root@pc:~$ cc '4*2'
 8
 
 # subtraction
-root@pc:~$ = -4-2
+root@pc:~$ cc -4-2
 -6
 
 # division
-root@pc:~$ = 5.0/2
+root@pc:~$ cc 5.0/2
 2.5
 
 # square root
-root@pc:~$ = sqrt(2)
+root@pc:~$ cc sqrt(2)
 1.41421
 
 # parentheses
-root@pc:~$ = "(6+6)*6"
+root@pc:~$ cc "(6+6)*6"
 72
 
 # convert from decimal to hexadecimal
-root@pc:~$ = "[#16] 255"
+root@pc:~$ cc "[#16] 255"
 16#FF
 
 # convert from decimal to binary
-root@pc:~$ = "[#2] 12"
+root@pc:~$ cc "[#2] 12"
 2#1100
 
 # convert from binary to decimal
-root@pc:~$ = "2#1100"
+root@pc:~$ cc "2#1100"
 12
 
 # convert from hexadecimal to decimal
-root@pc:~$ = "16#FF"
+root@pc:~$ cc "16#FF"
 255
 
 # arctangent
-root@pc:~$ = atan(1)
+root@pc:~$ cc atan(1)
 .785398
 
 # PI value
-root@pc:~$ = PI
+root@pc:~$ cc PI
 3.14159
 
 # more complex
-root@pc:~$ = "3.4+7/8-(5.94*(4*atan(1)))"
+root@pc:~$ cc "3.4+7/8-(5.94*(4*atan(1)))"
 -15.2611
 ```
 
